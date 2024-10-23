@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+1) Installation and setup, Typography, different tags of Typography, props in Typography, variant, color, Button, events, props, TextField, input types, Table, TableCell, TableBody, Grid2, container, Paper, elevation, flex properties in Grid2, Link, Box, gutterBottom, 
+2) Created the Advanta login, registration and dashboard page using Material UI. Used Grid to create the boxes and Paper to create the cards and using react-router-dom routed all three pages at the necessary points. Used the useState hook to store the temp data in localStorage.
+Github link: https://github.com/bhushan-thinkitive-ac/material_UI_userAuth
+Deploy Link: https://patientlist.netlify.app/register
+
+
+
+Login and register pages should be identical and mobile responsive 
