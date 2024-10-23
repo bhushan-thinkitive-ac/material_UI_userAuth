@@ -49,7 +49,7 @@ const Register = () => {
         >
             <Grid2 item xs={12} sm={10} md={8} lg={6}>
                 <Paper elevation={10} sx={{ padding: 6 }}>
-                    <Typography variant="h5" gutterBottom sx={{ fontFamily: 'Montserrat', fontWeight: 100, textAlign: 'center', mb: 6, mt: 0 }}>
+                    <Typography variant="h5" gutterBottom sx={{ fontFamily: 'Arial', fontWeight: 100, textAlign: 'center', mb: 6, mt: 0 }}>
                         Your Information
                     </Typography>
                     <form onSubmit={handleSubmit}>
