@@ -69,11 +69,10 @@ const Test = () => {
                 </Box>
 
                 <Paper
-                    elevation={0}
+                    elevation={10}
                     sx={{
-                        flex: 2,
+                        flex: 1.6,
                         padding: { xs: 2, sm: 5, md: 8 },
-                        marginTop: { xs: 2, md: 6 },
                     }}
                 >
                     <Typography
@@ -81,8 +80,10 @@ const Test = () => {
                         component="h1"
                         gutterBottom
                         sx={{
-                            fontFamily: '"Poppins", sans-serif',
-                            fontSize: { xs: '24px', sm: '32px', md: '36px' },
+                            fontFamily: 'Helvetica,Arial,sans-serif',
+                            fontStyle: 'italic',
+                            fontSize: { xs: '12px', sm: '18px', md: '24px' },
+                            marginTop: '10px'
                         }}
                     >
                         Sign In
@@ -103,15 +104,15 @@ const Test = () => {
                         InputProps={{
                             style: {
                                 borderBottom: '3px solid #43e97b',
-                                fontSize: { xs: '14px', sm: '16px' },
+                                fontSize: { xs: '14px', sm: '16px', md: '18px' },
                                 fontFamily: '"Poppins", sans-serif',
                             },
                             disableUnderline: true,
                         }}
                         InputLabelProps={{
                             style: {
-                                fontSize: { xs: '12px', sm: '14px' },
-                                fontFamily: '"Poppins", sans-serif',
+                                fontSize: { xs: '12px', sm: '14px', md: '16px' },
+                                fontFamily: 'Helvetica,Arial,sans-serif',
                             },
                         }}
                     />
@@ -129,15 +130,16 @@ const Test = () => {
                         variant="standard"
                         InputProps={{
                             style: {
-                                borderBottom: '2px solid #43e97b',
-                                fontSize: { xs: '14px', sm: '16px' },
-                                fontFamily: '"Poppins", sans-serif',
+                                borderBottom: '3px solid #43e97b',
+                                fontSize: { xs: '14px', sm: '16px', md: '18px' },
+                                fontFamily: 'Helvetica,Arial,sans-serif',
                             },
+                            disableUnderline: true,
                         }}
                         InputLabelProps={{
                             style: {
-                                fontSize: { xs: '12px', sm: '14px' },
-                                fontFamily: '"Poppins", sans-serif',
+                                fontSize: { xs: '12px', sm: '14px', md: '16px' },
+                                fontFamily: 'Helvetica,Arial,sans-serif',
                             },
                         }}
                     />
