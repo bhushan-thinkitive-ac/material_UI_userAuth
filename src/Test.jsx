@@ -81,7 +81,7 @@ const Test = () => {
                         gutterBottom
                         sx={{
                             fontFamily: 'Helvetica,Arial,sans-serif',
-                            fontStyle: 'italic',
+                            fontStyle: 'bold',
                             fontSize: { xs: '12px', sm: '18px', md: '24px' },
                             marginTop: '10px'
                         }}
